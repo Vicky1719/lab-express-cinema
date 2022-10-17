@@ -4,5 +4,52 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
 }
+button {
+  width: 200px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+#principal {
+  background-image: url(/images/cinema.jpg);
+  background-repeat: no-repeat;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  height: 550px;
+}
+
+#cartelera {
+  font-size: 40px;
+  color: white;
+  padding: 60px 30px 250px 550px;
+}
+
+#caratula {
+  width: 55%;
+  margin-right: -20%;
+  float: left;
+}
+
+#informacion {
+  width: 52%;
+  float: right;
+  margin-right: 13%;
+}
+
+#peliculas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#lista {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+
+
